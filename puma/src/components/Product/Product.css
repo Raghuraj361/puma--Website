@@ -1,0 +1,17 @@
+.product {
+    width: 330px;
+    height: 337px;
+}
+.product_image img {
+    width: 330px;
+    height: 300px;
+    object-fit: contain;
+}
+.product_name {
+    display: flex;
+    justify-content: space-evenly;
+}
+.product_name  span {
+   font-size: 14px;
+   font-weight: bold;
+}

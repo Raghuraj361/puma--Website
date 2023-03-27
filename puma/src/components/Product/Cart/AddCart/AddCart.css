@@ -1,0 +1,108 @@
+.addcart {
+    display: flex;
+    gap: 50px;
+    padding: 0 20px;
+    max-width: 1200px;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  
+  .addcart_left {
+    width: 50%;
+    padding: 10px 20px;
+  }
+  
+  .productcart {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+  }
+  
+  .image_container {
+    width: 230px;
+    height: 230px;
+  }
+  
+  .image_container img {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  
+  .product_detail {
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .name__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .quantity__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .quantity {
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  
+  .quantity span:first-child {
+    border-right: 1px solid black;
+    padding: 5px 10px 5px 5px;
+  }
+  
+  .quantity span:last-child {
+    padding: 5px 5px 5px 10px;
+  
+    border-left: 1px solid black;
+  }
+  .deleteIcon {
+    cursor: pointer;
+  }
+  .Right {
+    border: 1px solid black;
+    padding: 0 20px;
+    width: 420px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+  }
+  
+  .total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(190, 188, 188);
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  
+  .btn button {
+    width: 100%;
+    background: #8a7350;
+    outline: 0;
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+    letter-spacing: 1px;
+    border: 0;
+    height: 45px;
+    cursor: pointer;
+  }

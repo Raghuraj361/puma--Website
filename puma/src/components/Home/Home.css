@@ -1,0 +1,45 @@
+.hero {
+    background-image: url("https://cdn.sanity.io/images/qa41whrn/prod/9e1eb60e3c4f7128aaf45ecc48dc0f5fc741a8fe-2880x1040.jpg?w=2160&q=80&auto=format");
+    width: 100%;
+    height: 480px;
+    background-size: cover;
+    position: relative;
+}
+.home_flex {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    top: 35%;
+    right: 40px;
+    flex-direction: column;
+}
+.home_flex div h2 {
+    font-size: 40px;
+}
+.btn {
+    display: flex;
+    gap: 20px;
+}
+.btn > a button {
+    color: #fff;
+    background-color: black;
+    padding: 10px 15px;
+    font-size: 15px;
+    font-weight: 700;
+    outline: none;
+    cursor: pointer;
+}
+
+/* media queries */
+@media screen and (max-width: 539px) {
+    .hero {
+        width: 100%;
+        height: 135px;
+        background-size: cover;
+        position: relative;
+    }
+    .home_flex {
+   
+    }
+}

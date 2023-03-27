@@ -1,0 +1,136 @@
+.cart {
+    display: flex;
+  }
+  .cart_left {
+    flex: 1;
+  }
+  .cart_left img {
+    width: 550px;
+    height: 520px;
+    object-fit: contain;
+  }
+  .cart_right {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: initial;
+    flex: 1;
+  }
+  /* .cart_name_price {
+      position: relative;
+      top: 50px;
+  } */
+  .cart_name_price {
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .size {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 15px;
+    font-weight: 700;
+    gap: 20px;
+    flex-direction: column;
+    position: relative;
+    right: 0px;
+  }
+  .cart_size_button {
+    display: flex;
+    gap: 20px;
+  }
+  .cart_size_button > button {
+    width: 83px;
+    padding: 22px 15px;
+    background: transparent;
+    font-size: 20px;
+    border: 1px solid gray;
+  }
+  .cart_size_button > button:hover {
+    background-color: black;
+    color: #fff;
+  }
+  .cart_addSection {
+    position: relative;
+    top: 49px;
+  }
+  .cart_countity {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -9px;
+    /* background: rgb(199, 194, 194); */
+    color: #000;
+    padding: 10px;
+    font-size: 15px;
+  }
+  .cart_countity span {
+    width: 20px;
+    text-align: center;
+    margin-top: 13px;
+  }
+  .cart_countity button {
+    cursor: pointer;
+  }
+  .cart_countity_add_section {
+    display: flex;
+    gap: 10px;
+  }
+  .cart_countity_add_section > button {
+    width: 305px;
+    background-color: #000;
+    color: #fff;
+    padding: 20px 15px;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .wish_button {
+    background: transparent;
+    width: 305px;
+    padding: 20px 15px;
+    position: relative;
+    top: 10px;
+    left: 85px;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  .free {
+    position: relative;
+    top: 114px;
+    right: 3px;
+    color: gray;
+    font-weight: 600;
+  }
+  .cart_pin_code {
+    position: relative;
+    top: 160px;
+    right: 361px;
+  }
+  .pin_input {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0;
+  }
+  .pin_input input {
+    padding: 10px;
+  }
+  .pin_input button {
+    width: 108px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 20px 15px;
+  }
+  
+  .cart_description {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: initial;
+    position: relative;
+    top: 200px;
+  }

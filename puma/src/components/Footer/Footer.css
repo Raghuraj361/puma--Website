@@ -1,0 +1,135 @@
+footer{
+    position: relative;
+    top: 200px;
+    background-color: rgb(19, 19, 19);
+}
+.back__button {
+    display: block;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(19, 19, 19);
+    padding: 15px 0;
+    line-height: 19px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.back__button:hover {
+    background-color: rgb(73, 69, 69);
+}
+
+footer .footer_container{
+    height: 45vh;
+    color: #fff;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-evenly;
+    align-items:flex-start;
+    position: relative;
+    top: 60px;
+    border-bottom: 0.5px solid gray;
+}
+.footer_left {
+display: flex;
+justify-content: space-around;
+align-items: end;
+gap: 20px;
+}
+.footer_right {
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+    gap: 20px;
+    }
+footer .footer_container .footr_details_one h3{
+    font-size: 16px;
+    text-align: left;
+}
+
+footer .footer_container .footr_details_one p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+    letter-spacing: .5px;
+    text-align: left;
+    cursor: pointer;
+}
+
+
+footer .lastdetails{
+    background-color: rgb(19, 19, 19);
+    height:20vh;
+}
+
+footer img{
+    display: block;
+    width: 80px;
+    margin: 50px auto auto auto;
+    text-align: center;
+    padding-top: 30px;
+}
+
+footer p{
+    color: #fff;
+    font-size: 12px;
+    letter-spacing: .3px;
+    text-align: center;
+    margin-top: 20px;
+}
+.condion__footer {
+    height: 15vh;
+    color: #fff;
+   
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-start;
+    position: relative;
+    top: 30px;
+    
+}
+/* .navbar_input {
+    display: flex;
+    align-items: center;
+    position: relative;
+    border: 1px solid gray;
+    
+  }
+  .navbar_input input {
+    background: transparent;
+    outline: none;
+    border: none;
+    padding: 12px 0;
+    margin: 0 10px;
+  } */
+  .footer_section {
+    background: transparent;
+    color: #fff;
+    padding: 16px;
+    width: 385px;
+  }
+  .footer_section > option {
+    color: black;
+  }
+.paragraph {
+    position: relative;
+    bottom: 18px;
+    font-size: 10px;
+    color: gray;
+}
+.last__footer {
+    background-color: rgb(19, 19, 19);
+    padding: 5px;
+}
+.bottom__paragraph {
+    position: relative;
+    bottom: 25px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .footer_container {
+        padding: 0px 30px;
+        font-size: 10px;
+        gap: 5px;
+        
+    }
+}

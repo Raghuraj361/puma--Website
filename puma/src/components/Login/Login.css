@@ -1,0 +1,60 @@
+.my_account {
+    position: relative;
+    left: 270px;
+    top: 10px;
+    margin-bottom: 50px;
+    font-size: 32px;
+}
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.login_register {
+    font-weight: 700;
+}
+.login_register span {
+    position: relative;
+    left: 186px;
+}
+.login_register hr {
+    min-width: 431px;
+}
+.phone_input {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-size: 12px;
+    font-weight: 700;
+    gap: 10px;
+}
+.phone_input input {
+    width: 410px;
+    padding: 12px;
+    
+}
+.phone_input button {
+    width: 437px;
+    padding: 12px;
+    background-color: lightgray;
+    border: none;
+    margin-top: 35px;
+}
+.phone_input button:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+.otp_verification {
+    font-size: 14px;
+    font-weight: 300;
+    position: relative;
+    right: 49px;
+}
+.login_password {
+    display: flex;
+    gap: 10px;
+    font-size: 12px;
+    font-weight: 700;
+}
