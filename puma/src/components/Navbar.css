@@ -69,19 +69,19 @@
     top: 0;
   }
   /* media queries */
-  @media screen and (max-width: 539px) {
-    .navbar {
-      width: 38vh;
-      height: 60px;
-    }
-    .navbar_sec_text {
-      display: none;
-    }
-    .navbar_input {
-      border: none;
-      margin-left: -37px;
-    }
-    .navbar_input input {
-      display: none;
-    }
+@media screen and (max-width: 539px) {
+  .navbar {
+    width: 100%;
+    height: 60px;
   }
+  .navbar_sec_text {
+    display: none;
+  }
+  .navbar_input {
+    border: none;
+    margin-left: -37px;
+  }
+  .navbar_input input {
+    display: none;
+  }
+}
