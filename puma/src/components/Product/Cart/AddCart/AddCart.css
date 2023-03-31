@@ -106,3 +106,16 @@
     height: 45px;
     cursor: pointer;
   }
+@media screen and (max-width: 539px) {
+  .image_container img {
+    width: 100%;
+    height: 74%;
+    display: block;
+  }
+  .addcart_left {
+    width: 68%;
+  }
+  .Right {
+    width: 64%;
+  }
+}
