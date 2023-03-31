@@ -33,13 +33,38 @@
 
 /* media queries */
 @media screen and (max-width: 539px) {
-    .hero {
-        width: 100%;
-        height: 135px;
-        background-size: cover;
-        position: relative;
-    }
-    .home_flex {
-   
-    }
+  .hero {
+    width: 100%;
+    height: 210px;
+    background-size: cover;
+    position: relative;
+  }
+  .home_flex {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    top: 32%;
+    right: 85px;
+    flex-direction: column;
+  }
+  .home_flex div h2 {
+    font-size: 22px;
+  }
+  .btn {
+    display: flex;
+    gap: 15px;
+  }
+  .btn > a button {
+    color: #fff;
+    background-color: black;
+    padding: 5px 10px;
+    font-size: 10px;
+    font-weight: 700;
+    outline: none;
+    cursor: pointer;
+    margin-right: 7px;
+    height: 35px;
+    width: 65px;
+  }
 }
