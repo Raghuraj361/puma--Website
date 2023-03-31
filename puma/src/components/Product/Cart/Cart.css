@@ -134,3 +134,45 @@
     position: relative;
     top: 200px;
   }
+@media screen and (max-width: 539px) {
+  .cart_left img {
+    width: 140px;
+    height: 215px;
+    object-fit: contain;
+  }
+  .cart_name_price {
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .cart_size_button > button {
+    width: 24px;
+    padding: 4px 5px;
+    font-size: 16px;
+  }
+  .cart_addSection {
+    position: relative;
+    top: 49px;
+    right: 128px;
+  }
+  .cart_countity_add_section > button {
+    width: 210px;
+  }
+  .wish_button {
+    width: 210px;
+  }
+  .free {
+    position: relative;
+    top: 114px;
+    right: 120px;
+  }
+  .cart_pin_code {
+    position: relative;
+    top: 160px;
+    right: 123px;
+  }
+  .cart_description {
+    position: relative;
+    top: 200px;
+    right: 123px;
+  }
+}
