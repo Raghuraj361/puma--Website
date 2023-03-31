@@ -58,3 +58,11 @@
     font-size: 12px;
     font-weight: 700;
 }
+@media screen and (max-width: 539px) {
+    .my_account {
+        position: relative;
+        left: 8px;
+        top: 10px;
+        font-size: 19px;
+    }
+}
